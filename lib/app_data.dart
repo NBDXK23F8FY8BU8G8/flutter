@@ -89,7 +89,7 @@ const Trips_data = const[
     ],
     isInSummer: false,
     isForFamilies: true,
-    isInWinter: true, Text: '',
+    isInWinter: true, Text: 'frrggrrfrf',
   ),
   Trip(
     id: 'm2',

@@ -8,15 +8,31 @@ class TripItem extends StatelessWidget {
   final String tripType;
   final String season;
 
-  TripItem({
+  const TripItem({super.key, 
     required this.title,
     required this.imageUrl,
     required this.duration,
     required this.tripType,
     required this.season,
   });
+ String get seasonText {
+   if (season == Season.Winter){
+    return 'dhud';
 
+   }
+   if (season == Season.Spring){
+    return 'dhud';
 
+   }
+   if (season == Season.Summer) {
+    return 'dhud';
+
+   }
+    {
+    return 'dhud';
+
+   }
+  }
 
   
 
@@ -100,7 +116,7 @@ class TripItem extends StatelessWidget {
                         width: 6,
                       ),
                       Text('$duration DESCRIPCION'),
-                       Text('$duration A classic Margarita mixed with Aha Toro Blanco Tequila, Cointreau and freshly squeezed lime juice.'),
+                       Text('$duration '),
                     ],
                   ),
                   Row(
@@ -113,6 +129,19 @@ class TripItem extends StatelessWidget {
                         width: 6,
                       ),
                       Text('$duration'),
+                    ],
+                  ),
+                   Row(
+                    children: [
+                      Icon(
+                        Icons.today,
+                        color: Theme.of(context).accentColor,
+                      ),
+                      const SizedBox(
+                        width: 6,
+                      ),
+                      Text('$duration DESCRIPCION'),
+                       Text('$duration '),
                     ],
                   ),
                 ],
