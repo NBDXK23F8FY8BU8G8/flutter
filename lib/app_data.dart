@@ -67,13 +67,13 @@ const Categories_data = const [
 ];
 // ignore: constant_identifier_names
 // ignore: unnecessary_const
-const Trips_data = const[
+const Trips_data = const [
   Trip(
     id: 'm1',
     categories: [
       'c1',
     ],
-    title: 'dvduughdhbhdbd',
+    title: 'dvduughdhbhdbdj',
     tripType: TripType.Exploration,
     season: Season.Winter,
     imageUrl:
@@ -89,7 +89,12 @@ const Trips_data = const[
     ],
     isInSummer: false,
     isForFamilies: true,
-    isInWinter: true, Text: 'frrggrrfrf',
+    isInWinter: true,
+    descripcion:
+        'Es uno de los cócteles más conocidos, compuesto de ginebra con una porción de vermut. Suele servirse en copa de cóctel, adornado con una aceituna cruzada',
+    texto: '70 ml de ginebra ,20 ml de vermouth seco,1 aceituna verde',
+    preparacion:
+        '1.Coloca el vermouth y la ginebra en un “shaker” lleno de hielo, agita durante 30 segundos.2.Vierte la mezcla en una copa de martini. Decora con la aceituna y sirve',
   ),
   Trip(
     id: 'm2',
@@ -97,7 +102,8 @@ const Trips_data = const[
       'c2',
     ],
     title: 'gghbhh',
-    imageUrl: 'https://th.bing.com/th/id/R.4aa6c28b80f39fd7ccb040e7446037d7?rik=z8kZ%2b7gaKuFTbg&pid=ImgRaw&r=0',
+    imageUrl:
+        'https://th.bing.com/th/id/R.4aa6c28b80f39fd7ccb040e7446037d7?rik=z8kZ%2b7gaKuFTbg&pid=ImgRaw&r=0',
     activies: [
       'gddjbdjd',
       'bcbdcjnc',
@@ -111,7 +117,11 @@ const Trips_data = const[
     tripType: TripType.Activites,
     isInSummer: false,
     isForFamilies: true,
-    isInWinter: true, Text: '',
+    isInWinter: true,
+    descripcion:
+        ' es una copia de la escritura en el barril original. El whisky se embotelló por primera vez en botellas de vino de Oporto.',
+    texto: 'cebada, trigo, centeno y maíz',
+    preparacion: '',
   ),
   Trip(
     id: 'm3',
@@ -134,7 +144,10 @@ const Trips_data = const[
     ],
     isInSummer: false,
     isForFamilies: true,
-    isInWinter: true, Text: '',
+    isInWinter: true,
+    texto: 'Hola wera',
+    descripcion: '',
+    preparacion: '',
   ),
   Trip(
     id: 'm4',
@@ -142,7 +155,8 @@ const Trips_data = const[
       'c4',
     ],
     title: 'nuuu',
-    imageUrl: 'https://www.thecocktaildb.com/images/media/drink/xtuyqv1472669026.jpg',
+    imageUrl:
+        'https://www.thecocktaildb.com/images/media/drink/xtuyqv1472669026.jpg',
     activies: [
       'gddjbdjd',
       'bcbdcjnc',
@@ -156,7 +170,10 @@ const Trips_data = const[
     tripType: TripType.Recovery,
     isInSummer: false,
     isForFamilies: true,
-    isInWinter: true, Text: '',
+    isInWinter: true,
+    texto: '',
+    descripcion: '',
+    preparacion: '',
   ),
   Trip(
     id: 'm5',
@@ -164,7 +181,8 @@ const Trips_data = const[
       'c5',
     ],
     title: 'lea',
-    imageUrl: 'https://www.thecocktaildb.com/images/media/drink/yyrwty1468877498.jpg',
+    imageUrl:
+        'https://www.thecocktaildb.com/images/media/drink/yyrwty1468877498.jpg',
     activies: [
       'gddjbdjd',
       'bcbdcjnc',
@@ -178,7 +196,10 @@ const Trips_data = const[
     tripType: TripType.Recovery,
     isInSummer: false,
     isForFamilies: true,
-    isInWinter: true, Text: '',
+    isInWinter: true,
+    texto: '',
+    descripcion: '',
+    preparacion: '',
   ),
   Trip(
     id: 'm6',
@@ -186,7 +207,8 @@ const Trips_data = const[
       'c6',
     ],
     title: 'no se',
-    imageUrl: 'https://www.thecocktaildb.com/images/media/drink/uc63bh1582483589.jpg',
+    imageUrl:
+        'https://www.thecocktaildb.com/images/media/drink/uc63bh1582483589.jpg',
     activies: [
       'gddjbdjd',
       'bcbdcjnc',
@@ -200,7 +222,10 @@ const Trips_data = const[
     tripType: TripType.Recovery,
     isInSummer: false,
     isForFamilies: true,
-    isInWinter: true, Text: '',
+    isInWinter: true,
+    texto: '',
+    descripcion: '',
+    preparacion: '',
   ),
   Trip(
     id: 'm7',
@@ -208,7 +233,8 @@ const Trips_data = const[
       'c7',
     ],
     title: 'hola',
-    imageUrl: 'https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg',
+    imageUrl:
+        'https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg',
     activies: [
       'gddjbdjd',
       'bcbdcjnc',
@@ -222,7 +248,10 @@ const Trips_data = const[
     tripType: TripType.Recovery,
     isInSummer: false,
     isForFamilies: true,
-    isInWinter: true, Text: '',
+    isInWinter: true,
+    texto: '',
+    descripcion: '',
+    preparacion: '',
   ),
   Trip(
     id: 'm8',
@@ -230,7 +259,8 @@ const Trips_data = const[
       'c8',
     ],
     title: 'oneyda',
-    imageUrl: 'https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg',
+    imageUrl:
+        'https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg',
     activies: [
       'gddjbdjd',
       'bcbdcjnc',
@@ -244,7 +274,10 @@ const Trips_data = const[
     tripType: TripType.Recovery,
     isInSummer: false,
     isForFamilies: true,
-    isInWinter: true, Text: '',
+    isInWinter: true,
+    texto: '',
+    descripcion: '',
+    preparacion: '',
   ),
   Trip(
     id: 'm9',
@@ -252,7 +285,8 @@ const Trips_data = const[
       'c9',
     ],
     title: 'oneyda',
-    imageUrl: 'https://www.thecocktaildb.com/images/media/drink/7cll921606854636.jpg',
+    imageUrl:
+        'https://www.thecocktaildb.com/images/media/drink/7cll921606854636.jpg',
     activies: [
       'gddjbdjd',
       'bcbdcjnc',
@@ -266,7 +300,10 @@ const Trips_data = const[
     tripType: TripType.Recovery,
     isInSummer: false,
     isForFamilies: true,
-    isInWinter: true, Text: '',
+    isInWinter: true,
+    texto: '',
+    descripcion: '',
+    preparacion: '',
   ),
   Trip(
     id: 'm10',
@@ -274,7 +311,8 @@ const Trips_data = const[
       'c10',
     ],
     title: 'oneyda',
-    imageUrl: 'https://www.thecocktaildb.com/images/media/drink/2rzfer1487602699.jpg',
+    imageUrl:
+        'https://www.thecocktaildb.com/images/media/drink/2rzfer1487602699.jpg',
     activies: [
       'gddjbdjd',
       'bcbdcjnc',
@@ -288,7 +326,9 @@ const Trips_data = const[
     tripType: TripType.Recovery,
     isInSummer: false,
     isForFamilies: true,
-    isInWinter: true, Text: '',
+    isInWinter: true,
+    texto: '',
+    descripcion: '',
+    preparacion: '',
   ),
-  
 ];

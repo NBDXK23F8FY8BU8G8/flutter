@@ -25,11 +25,13 @@ class CategoryTripsScreen extends StatelessWidget {
         itemBuilder: (ctx, index) {
           return TripItem(
             title: filteredTrips[index].title,
-            imageUrl: filteredTrips[index].imageUrl, 
-            duration: '', 
+            imageUrl: filteredTrips[index].imageUrl,
+            duration: '',
             season: '',
-             tripType: '',
-            
+            tripType: '',
+            texto: filteredTrips[index].texto,
+            descripcion: filteredTrips[index].descripcion,
+            preparacion: filteredTrips[index].preparacion,
           );
         },
         itemCount: filteredTrips.length,

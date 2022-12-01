@@ -6,6 +6,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 void main() {
   runApp(const MyApp());
 }
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
   // This widget is the root of your application.
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      
+
       // ignore: prefer_const_literals_to_create_immutables
       localizationsDelegates: [
         GlobalMaterialLocalizations.delegate,
@@ -22,10 +23,9 @@ class MyApp extends StatelessWidget {
       ],
       // ignore: prefer_const_literals_to_create_immutables
       supportedLocales: [
-        const Locale('ar', 'AE'), 
+        const Locale('ar', 'AE'),
       ],
       title: 'THE COCKTAIL DB',
-      
 
       theme: ThemeData(
           primarySwatch: Colors.blue,

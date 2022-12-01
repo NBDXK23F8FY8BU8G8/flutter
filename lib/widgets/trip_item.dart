@@ -7,34 +7,35 @@ class TripItem extends StatelessWidget {
   final String duration;
   final String tripType;
   final String season;
+  final String texto;
+  final String descripcion;
+  final String preparacion;
 
-  const TripItem({super.key, 
+  const TripItem({
+    super.key,
     required this.title,
     required this.imageUrl,
     required this.duration,
     required this.tripType,
     required this.season,
+    required this.texto,
+    required this.descripcion,
+    required this.preparacion,
   });
- String get seasonText {
-   if (season == Season.Winter){
-    return 'dhud';
-
-   }
-   if (season == Season.Spring){
-    return 'dhud';
-
-   }
-   if (season == Season.Summer) {
-    return 'dhud';
-
-   }
+  String get seasonText {
+    if (season == Season.Winter) {
+      return 'dhud';
+    }
+    if (season == Season.Spring) {
+      return 'dhud';
+    }
+    if (season == Season.Summer) {
+      return 'dhud';
+    }
     {
-    return 'dhud';
-
-   }
+      return 'dhud';
+    }
   }
-
-  
 
   void selectTrip() {}
 
@@ -115,8 +116,7 @@ class TripItem extends StatelessWidget {
                       const SizedBox(
                         width: 6,
                       ),
-                      Text('$duration DESCRIPCION'),
-                       Text('$duration '),
+                      Text(texto),
                     ],
                   ),
                   Row(
@@ -128,10 +128,10 @@ class TripItem extends StatelessWidget {
                       const SizedBox(
                         width: 6,
                       ),
-                      Text('$duration'),
+                      Text(descripcion),
                     ],
                   ),
-                   Row(
+                  Row(
                     children: [
                       Icon(
                         Icons.today,
@@ -140,8 +140,7 @@ class TripItem extends StatelessWidget {
                       const SizedBox(
                         width: 6,
                       ),
-                      Text('$duration DESCRIPCION'),
-                       Text('$duration '),
+                      Text(preparacion),
                     ],
                   ),
                 ],
